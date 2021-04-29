@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="wrapper">
+
+    <ul class="seamless">
+      <li>
+        <a href="{{ site.baseurl }}/">Home</a>
+      </li>
+      {% for p in site.pages %}
+        {% if p.menu-title %}
+          <li>
+            <a href="{{ p.url | prepend: site.baseurl }}">{{ p.menu-title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      <li>
+        <a href="{{ site.baseurl }}/blog/">Blog</a>
+      </li>
+    </ul>
+
+  </div>
+</footer>

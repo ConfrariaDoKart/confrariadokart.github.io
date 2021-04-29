@@ -1,0 +1,19 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a href="{{ site.baseurl }}/" class="site-title icon inline">
+      {{ site.title }}
+    </a>
+
+    {% for p in site.pages %}
+      {% if p.menu-title %}
+      <li>
+        <a href="{{ p.url | prepend: site.baseurl }}">{{ p.menu-title }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</header>

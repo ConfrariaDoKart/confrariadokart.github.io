@@ -1,0 +1,36 @@
+{%- assign href = site.url | append: site.baseurl | append: page.url -%}
+
+{%- assign event_label = page.url | append: ' ' | append: include.position -%}
+
+{% if page.title %}
+	{% assign title = page.title %}
+{% else %}
+	{% assign title = site.title %}
+{% endif %}
+
+<a
+  class="share-btn btn-fb"
+  target="_blank"
+  href="https://www.facebook.com/sharer/sharer.php?u={{ href | cgi_escape }}&amp;src=sdkpreparse"
+  onclick="ga('send', 'event', 'Compartilhar', 'Facebook', '{{ event_label }}');"
+  title="Compartilhar no Facebook">
+  {% include svg/facebook-letter.svg %}
+</a>
+
+<a
+	class="share-btn btn-tw"
+	target="_blank"
+	href="https://twitter.com/intent/tweet?text={{ title | append: '' | cgi_escape }}&url={{ href | cgi_escape }}"
+	onclick="ga('send', 'event', 'Compartilhar', 'Twitter', '{{ event_label }}');"
+	title="Compartilhar no Twitter">
+	{% include svg/twitter.svg %}
+</a>
+
+<a
+  class="share-btn btn-wa"
+  target="_blank"
+  href="https://wa.me/?text={{ page.title | append: ' ' | append: href | cgi_escape }}"
+  onclick="ga('send', 'event', 'Compartilhar', 'Whatsapp', '{{ event_label }}');"
+  title="Enviar pelo Whatsapp (apenas no celular)">
+  {% include svg/whatsapp.svg %}
+</a>
