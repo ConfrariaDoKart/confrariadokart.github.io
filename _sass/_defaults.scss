@@ -1,0 +1,75 @@
+body {
+    @extend .vertical;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: $base-font-family;
+    color: $text-color;
+    line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+blockquote {
+    margin-top: var(--spacing);
+    margin-bottom: var(--spacing);
+}
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: 2em + 2em / $i;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $title-font-family;
+    font-weight: normal;
+}
+
+%transition {
+    backface-visibility: hidden;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+a {
+    @extend %transition;
+    color: $brand-color;
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+
+    tr {
+        background-color: $background-color;
+        color: $text-color;
+
+        &:nth-of-type(even) {
+            background-color: $grey-color-light;
+        }
+    }
+
+    thead {
+        tr {
+            color: $background-color;
+            background-color: $grey-color;
+        }
+    }
+
+    th, td {
+        padding: 0.3em 0.5em;
+    }
+}

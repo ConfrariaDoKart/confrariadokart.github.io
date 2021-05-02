@@ -8,9 +8,9 @@
 
     {% for p in site.pages %}
       {% if p.menu-title %}
-      <li>
-        <a href="{{ p.url | prepend: site.baseurl }}">{{ p.menu-title }}</a>
-      </li>
+        <a href="{{ p.url | prepend: site.baseurl }}" class="page-link">
+          {{ p.menu-title }}
+        </a>
       {% endif %}
     {% endfor %}
 

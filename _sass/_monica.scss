@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+[disabled] {
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    flex: 1;
+}
+
+html {
+    --spacing-m: 64px;
+    --spacing: 32px;
+    --spacing-s: 16px;
+    --spacing-xs: 8px;
+
+    --spacing-smart: var(--spacing);
+
+    @media (max-width: $on-laptop) {
+        --spacing-smart: var(--spacing-s)
+    }
+}

@@ -1,0 +1,53 @@
+$header-height: 56px;
+
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $header-height;
+    line-height: $header-height;
+
+    z-index: 99;
+
+    & + * {
+        margin-top: $header-height;
+    }
+}
+
+.site-title {
+    float: left;
+}
+
+.site-footer {
+    margin-top: auto;
+    padding: var(--spacing) 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.post-content {
+    > {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ul,
+        ol,
+        dl,
+        figure,
+        table {
+            @extend .wrapper;
+        }
+
+        ul,
+        ol {
+            @include media-greater($on-palm) {
+                padding-left: var(--spacing-m);
+            }
+        }
+    }
+}

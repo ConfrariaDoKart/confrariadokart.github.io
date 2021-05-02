@@ -1,0 +1,65 @@
+.home-banner {
+    @extend .hero--dark;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: 100vh;
+    
+    background-image: url('#{$baseurl}/img/primeira-pessoa.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 120px;
+        background-image: linear-gradient(#000, transparent);
+    }
+
+    &__content {
+        @extend .wrapper;
+        margin-left: 0;
+
+        @include media-greater($on-laptop) {
+            margin-left: 10%;
+        }
+    }
+
+    &__heading {
+        font-family: $title-font-family;
+        font-size: 1.3em;
+        line-height: 1.25;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        &__line-1, &__line-2 {
+            margin-top: 0.125em;
+            margin-bottom: 0.125em;
+            padding: 5px 20px 1px;
+        }
+
+        &__line-1 {
+            background-color: $brand-color;
+            color: #fff;
+        }
+
+        &__line-2 {
+            background-color: #000;
+            color: $brand-color;
+            font-size: 1.4em;
+            text-transform: uppercase;
+        }
+
+        @include media-greater($on-palm) {
+            font-size: 4vw;
+        }
+    }
+}

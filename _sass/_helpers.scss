@@ -1,0 +1,45 @@
+.page-content {
+    padding-top: var(--spacing-m);
+    padding-bottom: var(--spacing-m);
+}
+
+.wrapper {
+    max-width: $content-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--spacing-smart);
+    padding-right: var(--spacing-smart);
+}
+
+.full-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    padding: var(--spacing-s);
+    background-color: $grey-color;
+    color: $background-color;
+
+    &--brand {
+        @extend .hero;
+        background-color: $brand-color;
+    }
+
+    &--dark {
+        @extend .hero;
+        background-color: $grey-color-dark;
+    }
+
+    &--light {
+        @extend .hero;
+        background-color: $grey-color-light;
+        color: $text-color;
+    }
+
+    .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

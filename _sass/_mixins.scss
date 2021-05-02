@@ -1,0 +1,23 @@
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin media-greater($device) {
+    @media screen and (min-width: $device + 1) {
+        @content;
+    }
+}
+
+@mixin button-colors($color, $fore-color: #fff) {
+    background-color: $color;
+    color: $fore-color;
+    box-shadow: none;
+
+    &:hover, &:focus {
+        background-color: $fore-color;
+        color: $color;
+        box-shadow: 0 3px 6px $color;
+    }
+}
