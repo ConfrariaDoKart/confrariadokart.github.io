@@ -1,6 +1,6 @@
 ---
 title: Como participar
-position: 1
+position: 0
 menu-title: Participe
 ---
 
