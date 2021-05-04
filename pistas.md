@@ -1,5 +1,6 @@
 ---
 title: Pistas e cartódromos
+position: 2
 menu-title: Pistas
 ---
 
