@@ -7,6 +7,7 @@
       </li>
 
       {% assign site_pages = site.pages | sort: 'position' %}
+
       {% for p in site_pages %}
         {% if p.menu-title %}
           <li>
@@ -14,9 +15,6 @@
           </li>
         {% endif %}
       {% endfor %}
-      <li>
-        <a href="{{ site.baseurl }}/blog/">Blog</a>
-      </li>
     </ul>
 
   </div>

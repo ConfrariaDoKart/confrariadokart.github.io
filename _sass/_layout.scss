@@ -13,10 +13,30 @@ $header-height: 56px;
     & + * {
         margin-top: $header-height;
     }
+
+    &__wrapper {
+        @extend .wrapper, .horizontal;
+        align-items: center;
+    }
 }
 
 .site-title {
     float: left;
+}
+
+.site-nav {
+    @extend .horizontal;
+}
+
+.page-link {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0.3em 1em;
+
+    &:hover, &:focus, &:active {
+        background-color: $brand-color;
+        color: #000;
+    }
 }
 
 .site-footer {
@@ -50,4 +70,10 @@ $header-height: 56px;
             }
         }
     }
+}
+
+.post-title {
+    background-image: linear-gradient(#000 65%, transparent 50%);
+    color: $brand-color;
+    padding-left: 0.3em;
 }

@@ -160,24 +160,12 @@ textarea {
 }
 
 button {
-    @extend %form-basis;
+    @extend %transition, %form-basis;
+    border: 0 none;
+    display: inline-block;
     padding-left: 2em;
     padding-right: 2em;
-    text-transform: uppercase;
-    background-color: transparent;
-    border: 1px solid $brand-color;
-    color: $brand-color;
-    font-family: $title-font-family;
+    font-weight: bold;
     line-height: 1.5;
-    @extend %transition;
-
-    &:hover,
-    &:focus {
-        background-color: $brand-color;
-        border-color: $brand-color;
-        color: #fff;
-    }
-    &:active {
-        transform: scale(0.95);
-    }
+    @include button-colors($brand-color)
 }

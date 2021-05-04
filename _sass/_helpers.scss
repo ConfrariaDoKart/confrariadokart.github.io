@@ -17,15 +17,23 @@
     background-size: cover;
 }
 
+ul,
+ol {
+    &.seamless {
+        list-style: none;
+        padding: 0;
+    }
+}
+
+.btn {
+    @extend button;
+    text-decoration: none;
+}
+
 .hero {
     padding: var(--spacing-s);
-    background-color: $grey-color;
+    background-color: $brand-color;
     color: $background-color;
-
-    &--brand {
-        @extend .hero;
-        background-color: $brand-color;
-    }
 
     &--dark {
         @extend .hero;
