@@ -1,6 +1,6 @@
 ---
 title: Quem somos
-position: 1
+position: 0
 menu-title: Quem somos
 ---
 
