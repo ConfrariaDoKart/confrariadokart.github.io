@@ -9,4 +9,4 @@ $baseurl: '{{ site.baseurl }}';
 @import "defaults", "forms";
 @import "monica", "helpers";
 @import "layout";
-@import "home";
+@import "home", "post";

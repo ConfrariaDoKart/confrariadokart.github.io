@@ -43,7 +43,7 @@
         &__line-1, &__line-2 {
             margin-top: 0.125em;
             margin-bottom: 0.125em;
-            padding: 5px 20px 1px;
+            padding: 5px 20px;
         }
 
         &__line-1 {
@@ -61,5 +61,13 @@
         @include media-greater($on-palm) {
             font-size: 4vw;
         }
+    }
+}
+
+.home-intro {
+    @extend .page-content;
+
+    &__content {
+        @extend .wrapper;
     }
 }
