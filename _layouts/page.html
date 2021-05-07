@@ -2,10 +2,15 @@
 layout: default
 ---
 
-<article class="page-content post">
+<article class="post-container">
+  <header class="post-header">
+    {%- if page.image -%}
+      <img src="{{ page.image }}" alt="{{ page.title }}" width="100%">
+    {%- endif -%}
 
-  <header class="post-header wrapper">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="wrapper">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
   </header>
 
   <div class="post-content">

@@ -2,6 +2,7 @@
 title: Pistas e cartódromos
 position: 1
 menu-title: Pistas
+image: /img/largada.jpg
 ---
 
 ## Pistas

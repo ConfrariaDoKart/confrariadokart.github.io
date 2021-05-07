@@ -2,23 +2,27 @@
 layout: default
 ---
 
-<article class="page-content post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post-container" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    {%- if page.image -%}
+      <img src="{{ page.image }}" alt="{{ page.title }}" width="100%">
+    {%- endif -%}
 
-  <header class="post-header wrapper">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <div class="horizontal">
-      <p class="post-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-        {% if page.author %}
-          • 
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span itemprop="name">{{ page.author }}</span>
-          </span>
-        {% endif %}
-      </p>
-
-      <div>
-        {% include share.html position='cabeçalho' %}
+    <div class="wrapper">
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <div class="horizontal">
+        <p class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+          {% if page.author %}
+            •
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="name">{{ page.author }}</span>
+            </span>
+          {% endif %}
+        </p>
+        <div>
+          {% include share.html position='cabeçalho' %}
+        </div>
       </div>
     </div>
   </header>
@@ -42,7 +46,7 @@ layout: default
 
 </article>
 
-<div class="wrapper">
+<div class="wrapper horizontal center">
   <p data-text="lg">Comente e compartilhe:</p>
   {% include share.html position='comentários' %}
 </div>

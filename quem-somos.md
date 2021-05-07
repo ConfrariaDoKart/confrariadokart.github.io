@@ -2,6 +2,7 @@
 title: Quem somos
 position: 2
 menu-title: Quem somos
+image: /img/podio.jpg
 ---
 
 ### Visão
