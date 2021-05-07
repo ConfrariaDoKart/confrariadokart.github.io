@@ -1,12 +1,11 @@
 .home-banner {
     @extend .hero--dark;
+    padding: 120px var(--spacing-smart);
     display: flex;
     align-items: center;
     margin-top: 0;
-    padding-top: 120px;
-    padding-bottom: 120px;
     height: 100vh;
-    
+
     background-image: url('#{$baseurl}/img/primeira-pessoa.jpg');
     background-position: center;
     background-size: cover;
@@ -18,17 +17,14 @@
         top: 0;
         left: 0;
         right: 0;
-        height: 120px;
-        background-image: linear-gradient(#000, transparent);
+        bottom: 0;
+        background-image: radial-gradient(transparent, #000);
     }
 
     &__content {
-        @extend .wrapper;
+        @extend %transition, .wrapper;
         margin-left: 0;
-
-        @include media-greater($on-laptop) {
-            margin-left: 10%;
-        }
+        z-index: 1;
     }
 
     &__heading {
@@ -64,8 +60,54 @@
     }
 }
 
-.home-intro {
+.home-features {
     @extend .page-content;
+
+    &__content {
+        @extend .wrapper, .horizontal;
+
+        @include media-query($on-palm) {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        @extend .flex;
+        text-align: center;
+    }
+    
+    &__link {
+        @extend .vertical, .center;
+        padding: 2em;
+        color: $grey-color;
+
+        &:hover, &:focus, &:active {
+            color: #000;
+
+            svg {
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    &__icon {
+        margin-bottom: var(--spacing);
+
+        svg {
+            @extend %transition;
+            width: 100px;
+            height: 100px;
+            color: inherit;
+
+            > * {
+                fill: currentColor;
+            }
+        }
+    }
+}
+
+.home-intro {
+    @extend .page-content, .hero--light;
 
     &__content {
         @extend .wrapper;
