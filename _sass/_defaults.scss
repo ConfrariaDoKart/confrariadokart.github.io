@@ -4,6 +4,8 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
     line-height: $base-line-height;
     color: $text-color;
     background-color: $background-color;
@@ -16,11 +18,17 @@ h4,
 h5,
 h6,
 p,
-li,
 blockquote {
     margin-top: var(--spacing);
     margin-bottom: var(--spacing);
 }
+
+ul, ol, li {
+    margin-top: var(--spacing-s);
+    margin-bottom: var(--spacing-s);
+}
+
+
 
 @for $i from 1 through 6 {
     h#{$i} {
