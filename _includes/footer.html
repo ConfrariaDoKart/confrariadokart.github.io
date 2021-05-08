@@ -1,5 +1,5 @@
 <footer class="site-footer">
-  <div class="wrapper">
+  <div class="site-footer__wrapper">
 
     <ul class="seamless">
       <li>
@@ -8,14 +8,31 @@
 
       {% assign site_pages = site.pages | sort: 'position' %}
 
-      {% for p in site_pages %}
-        {% if p.menu-title %}
-          <li>
-            <a href="{{ p.url | prepend: site.baseurl }}">{{ p.menu-title }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
+      {% for p in site_pages %}{% if p.menu-title %}
+        <li>
+          <a href="{{ p.url | prepend: site.baseurl }}">{{ p.menu-title }}</a>
+        </li>
+      {% endif %}{% endfor %}
     </ul>
+
+    <section class="site-footer__features">
+      <h4 class="site-footer__features-title">Patrocinadores</h4>
+
+      <ul class="site-footer__features-list">
+        <li class="site-footer__features-item">
+          <img src="{{ site.baseurl }}/img/patrocinadores/eureka.png" alt="Eureka">
+        </li>
+        <li class="site-footer__features-item">
+          <img src="{{ site.baseurl }}/img/patrocinadores/impera.png" alt="Impera">
+        </li>
+        <li class="site-footer__features-item">
+          <img src="{{ site.baseurl }}/img/patrocinadores/jcr.png" alt="JCR">
+        </li>
+        <li class="site-footer__features-item">
+          <img src="{{ site.baseurl }}/img/patrocinadores/trart.png" alt="TRART">
+        </li>
+      </ul>
+    </section>
 
   </div>
 </footer>
