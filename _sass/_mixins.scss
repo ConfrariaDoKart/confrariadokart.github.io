@@ -21,3 +21,9 @@
         box-shadow: 0 0 0 3px $color;
     }
 }
+
+@mixin transition {
+    backface-visibility: hidden;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}

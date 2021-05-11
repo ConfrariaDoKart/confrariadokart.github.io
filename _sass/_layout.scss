@@ -2,8 +2,6 @@ $header-height: 80px;
 
 .site-header {
     width: 100%;
-    height: $header-height;
-    line-height: $header-height;
     border-bottom: 1px solid $grey-color-light;
     background-color: rgba($background-color, 0.2);
     background-image: linear-gradient(
@@ -24,6 +22,8 @@ $header-height: 80px;
     &__wrapper {
         @extend .wrapper, .horizontal;
         align-items: center;
+        height: $header-height;
+        line-height: $header-height;
     }
 }
 
@@ -37,6 +37,43 @@ $header-height: 80px;
 
 .site-nav {
     @extend .horizontal;
+
+    &__button {
+        @extend .vertical;
+        background-color: transparent;
+        padding: 10px;
+
+        > * {
+            display: block;
+            width: 2em;
+            height: 6px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            background-color: #000;
+            transform: skewX(-15deg);
+        }
+
+        @include media-greater($on-laptop) {
+            display: none;
+        }
+    }
+
+    @include media-query($on-laptop) {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        flex-direction: column;
+        padding: var(--spacing-s);
+        background-color: $background-color;
+        border-bottom-left-radius: 6px;
+        border: 1px solid;
+        border-color: transparent transparent $grey-color-light $grey-color-light;
+        box-shadow: -5px 5px 10px rgba(#000, .1);
+
+        &.off {
+            display: none;
+        }
+    }
 }
 
 .page-link {

@@ -5,9 +5,15 @@
       <img src="{{ site.baseurl }}/img/confraria-do-kart-logo.png" alt="Confraria do Kart" height="60">
     </a>
 
+    <button class="site-nav__button">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+
     {% assign site_pages = site.pages | sort: 'position' %}
 
-    <nav class="site-nav">
+    <nav class="site-nav" id="site-nav">
       {% for p in site_pages %}
         {% if p.menu-title %}
           <a href="{{ p.url | prepend: site.baseurl }}" class="page-link">
