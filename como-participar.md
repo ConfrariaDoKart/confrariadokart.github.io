@@ -1,7 +1,7 @@
 ---
 title: Como participar
 position: 0
-menu-title: Participe
+menu-title: Participe do próximo campeonato
 ---
 
 ### Saiba Como Participar da Confraria do Kart
