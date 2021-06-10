@@ -6,8 +6,6 @@ menu-title: Participe
 
 ### Saiba Como Participar da Confraria do Kart
 
-Novo parágrafo
-
 **Caso você tenha interesse em participar de nossos campeonatos**, se mora próximo de São Paulo, tem espírito esportivo, não se incomoda com gozação, e tem um amigo, um primo, um irmão, um pai, ou alguém gente boa para ser seu companheiro de equipe, preencha o formulário abaixo que em breve nós faremos contato.
 
 Geralmente as vagas aparecem no final de cada Campeonato (junho e dezembro) quando acontecem as desistências, mas podem aparecer antes desse período. Nós montamos uma fila de inscritos e chamamos à medida que as vagas surgem.
