@@ -2,6 +2,9 @@
 title: Confraria do Kart
 timezone: America/Sao_Paulo
 collections:
+  campeonatos:
+    title: Campeonatos
+    output: true
   posts:
     title: Posts
     output: true
