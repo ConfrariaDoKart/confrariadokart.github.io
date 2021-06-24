@@ -1,0 +1,13 @@
+---
+title: 20º campeonato
+date: 2021-06-23 23:24:00 -03:00
+ano: 2021
+etapas:
+- date: 2021-01-19 00:00:00 -02:00
+  local: Paulínia
+- date: 2021-02-09 00:00:00 -02:00
+  local: KVG, São Paulo
+- date: 2021-03-15 00:00:00 -03:00
+  local: Interlagos
+---
+
