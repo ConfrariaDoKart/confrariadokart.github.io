@@ -8,14 +8,14 @@ isPaginated: true
     {% for post in paginator.posts %}
     <article>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2 class="post-title">
+        <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 200 }}</p>
     </article>
     {% endfor %}
 
-    <footer class="pagination horizontal center">
+    <footer class="page-content horizontal">
         {% if paginator.previous_page %}
         <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}"
             class="previous icon">{% include svg/arrow-prev.svg %}</a>

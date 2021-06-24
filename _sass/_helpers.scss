@@ -80,3 +80,19 @@ ol {
         padding-right: 0;
     }
 }
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+
+    svg {
+        display: block;
+        width: 1em;
+        height: 1em;
+        color: inherit;
+
+        > * {
+            fill: currentColor;
+        }
+    }
+}

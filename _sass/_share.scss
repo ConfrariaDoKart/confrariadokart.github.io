@@ -1,0 +1,46 @@
+.share {
+    &-label {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1.9;
+        padding-left: var(--spacing-s);
+        padding-right: var(--spacing-s);
+        background-color: $grey-color-light;
+    }
+
+    @mixin set-color($color) {
+        color: $color;
+
+        &:hover, &:focus, &:active {
+            background-color: $color;
+        }
+    }
+
+    &-btn {
+        @extend .icon;
+        padding: var(--spacing-xs);
+        background-color: $grey-color-light;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $grey-color;
+            color: $background-color;
+        }
+
+        &--fb {
+            @extend .share-btn;
+            @include set-color(#1877f2);
+        }
+
+        &--tw {
+            @extend .share-btn;
+            @include set-color(#1da1f2);
+        }
+
+        &--wa {
+            @extend .share-btn;
+            @include set-color(#25d366);
+        }
+    }
+}
