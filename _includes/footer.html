@@ -8,6 +8,10 @@
 
       {% assign site_pages = site.pages | sort: 'position' %}
 
+      <li>
+        <a href="{{ site.baseurl }}/blog">Campeonatos</a>
+      </li>
+
       {% for p in site_pages %}{% if p.menu-title %}
         <li>
           <a href="{{ p.url | prepend: site.baseurl }}">{{ p.menu-title }}</a>

@@ -1,3 +1,22 @@
+.post-item {
+    margin-top: var(--spacing-s);
+    margin-bottom: var(--spacing-s);
+    padding: var(--spacing-s);
+
+    border-radius: 6px;
+    background-color: $background-color;
+    box-shadow: 0 3px 6px rgba(#000, .2);
+
+    > * {
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+    }
+}
+
+.post-link-title {
+    font-size: 1.4em;
+}
+
 .post-container {
     padding-bottom: var(--spacing-m);
 }

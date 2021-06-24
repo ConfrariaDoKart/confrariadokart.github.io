@@ -54,6 +54,11 @@ a {
     @extend %transition;
     color: $brand-color;
     text-decoration: none;
+
+    &:hover, &:focus, &:active {
+        color: $grey-color-dark;
+        text-decoration: underline;
+    }
 }
 
 table {
