@@ -17,9 +17,12 @@ defaults:
     type: pages
   values:
     layout: page
+    image: ''
 - scope:
     path: ''
     type: posts
+    image: ''
+    campeonato: ''
   values:
     layout: post
     permalink: blog/:title/
