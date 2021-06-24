@@ -4,7 +4,7 @@ layout: default
 
 <article class="post-container">
   <header class="post-header">
-    {%- if page.image -%}
+    {%- if page.image != '' -%}
       <img src="{{ page.image }}" alt="{{ page.title }}" width="100%">
     {%- endif -%}
 

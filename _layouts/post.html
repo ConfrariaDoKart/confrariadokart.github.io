@@ -4,7 +4,7 @@ layout: default
 
 <article class="post-container" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    {%- if page.image -%}
+    {%- if page.image != '' -%}
       <img src="{{ page.image }}" alt="{{ page.title }}" width="100%">
     {%- endif -%}
 
