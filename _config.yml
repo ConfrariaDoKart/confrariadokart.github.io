@@ -21,8 +21,6 @@ defaults:
 - scope:
     path: ''
     type: posts
-    image: ''
-    campeonato: ''
   values:
     layout: post
     permalink: blog/:title/
