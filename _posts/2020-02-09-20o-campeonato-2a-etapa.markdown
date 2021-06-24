@@ -1,6 +1,7 @@
 ---
 title: 20º campeonato - 2ª etapa
 date: 2020-02-09 00:00:00 -02:00
+campeonato: 20º campeonato
 ---
 
 Na segunda etapa, a rapaziada toda ainda está um pouco tímida. São pilotos novos, caras novas, características novas. É tudo novo, menos o ambiente familiar que os confrades proporcionam aos pilotos. Aquele ditado de “Amizade, amizade. Negócios a parte.” aqui não existe, as rusgas acabam ficando dentro da pista. E só. Esse é o diferencial da Confraria. Enfim, vamos às corridas.
