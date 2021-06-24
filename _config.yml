@@ -21,11 +21,11 @@ defaults:
 - scope:
     path: ''
     type: posts
-    image: ''
-    campeonato: ''
   values:
     layout: post
     permalink: blog/:title/
+    image: ''
+    campeonato: ''
 lang: pt_BR
 description: ''
 baseurl: ''
