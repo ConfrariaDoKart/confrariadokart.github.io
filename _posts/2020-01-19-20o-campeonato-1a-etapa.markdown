@@ -1,6 +1,7 @@
 ---
 title: 20º campeonato - 1ª etapa
 date: 2020-01-19 00:00:00 -02:00
+campeonato: 20º campeonato
 ---
 
 Foi dada a largada para o 20º campeonato da Confraria do Kart!
