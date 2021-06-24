@@ -4,7 +4,7 @@ timezone: America/Sao_Paulo
 collections:
   campeonatos:
     title: Campeonatos
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
