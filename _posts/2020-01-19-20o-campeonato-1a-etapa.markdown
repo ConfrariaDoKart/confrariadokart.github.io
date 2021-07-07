@@ -1,7 +1,6 @@
 ---
 title: 20º campeonato - 1ª etapa
 date: 2020-01-19 00:00:00 -02:00
-image: "/uploads/20oCDK_1aEtapa_Speed.jpg"
 campeonato: 20º campeonato
 ---
 
