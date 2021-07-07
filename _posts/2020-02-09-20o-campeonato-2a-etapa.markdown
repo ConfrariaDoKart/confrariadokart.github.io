@@ -1,7 +1,6 @@
 ---
 title: 20º campeonato - 2ª etapa
 date: 2020-02-09 00:00:00 -02:00
-image: "/uploads/20oCDK_2aEtapa_Speed-1024x706.jpg"
 campeonato: 20º campeonato
 ---
 
