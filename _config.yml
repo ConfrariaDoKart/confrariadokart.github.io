@@ -26,6 +26,14 @@ defaults:
     permalink: blog/:title/
     image: ''
     campeonato: ''
+- scope:
+    path: ''
+    type: campeonatos
+  values:
+    ano: ''
+    etapas:
+    - date: ''
+      local: ''
 lang: pt_BR
 description: ''
 baseurl: ''
