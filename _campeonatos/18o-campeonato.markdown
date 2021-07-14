@@ -9,7 +9,7 @@ etapas:
 - date: 2019-02-10 00:00:00 -02:00
   local: Interlagos
 - date: 2019-03-17 00:00:00 -03:00
-  local: 
+  local: KGV
 - date: 2019-04-14 00:00:00 -03:00
   local: 
 - date: 2019-05-19 00:00:00 -03:00
