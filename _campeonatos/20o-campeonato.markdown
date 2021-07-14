@@ -1,7 +1,7 @@
 ---
 title: 20º campeonato
 date: 2021-06-23 23:24:00 -03:00
-ano: 2021
+ano: 2020
 etapas:
 - date: 2021-01-19 00:00:00 -02:00
   local: Paulínia
