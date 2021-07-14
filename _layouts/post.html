@@ -32,12 +32,12 @@ layout: default
   </div>
 
   <nav class="post-navigation wrapper large horizontal">
-    <div class="flex prev">
+    <div class="prev">
     {% if page.previous.url %}
       <a href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; {% if page.previous.titulo %}{{ page.previous.titulo }}{% else %}{{page.previous.title}}{% endif %}</a>
     {% endif %}
     </div>
-    <div class="flex next">
+    <div class="next">
     {% if page.next.url %}
       <a href="{{ page.next.url | prepend: site.baseurl }}">{% if page.next.titulo %}{{ page.next.titulo }}{% else %}{{page.next.title}}{% endif %} &raquo;</a>
     {% endif %}
