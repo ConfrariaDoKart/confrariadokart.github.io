@@ -15,6 +15,6 @@ etapas:
 - date: 2019-05-19 00:00:00 -03:00
   local: Granja Viana
 - date: 2019-06-16 00:00:00 -03:00
-  local: 
+  local: KGV
 ---
 
