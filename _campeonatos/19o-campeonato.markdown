@@ -1,7 +1,7 @@
 ---
 title: 19º campeonato
 date: 2021-07-13 20:52:00 -03:00
-position: 3
+position: 2
 ano: 2019
 etapas:
 - date: 2019-07-21 00:00:00 -03:00
