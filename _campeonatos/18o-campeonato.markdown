@@ -1,7 +1,7 @@
 ---
 title: 18º campeonato
 date: 2021-07-13 21:14:00 -03:00
-position: 3
+position: 4
 ano: 2019
 etapas:
 - date: 2019-01-20 00:00:00 -02:00
