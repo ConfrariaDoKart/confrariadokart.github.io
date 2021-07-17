@@ -6,5 +6,9 @@ ano: 2018
 etapas:
 - date: 2018-07-29 00:00:00 -03:00
   local: Interlagos
+- date: 2018-08-19 00:00:00 -03:00
+  local: Aldeia da Serra
+- date: 
+  local: 
 ---
 
