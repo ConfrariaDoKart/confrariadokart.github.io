@@ -14,7 +14,7 @@ etapas:
   local: Granja Viana
 - date: 2018-11-11 00:00:00 -02:00
   local: Nova Odessa
-- date: 
-  local: 
+- date: 2018-12-09 00:00:00 -02:00
+  local: Interlagos
 ---
 
