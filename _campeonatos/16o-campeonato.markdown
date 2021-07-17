@@ -15,6 +15,6 @@ etapas:
 - date: 2018-05-20 00:00:00 -03:00
   local: Granja Viana
 - date: 2018-06-10 00:00:00 -03:00
-  local: 
+  local: Interlagos
 ---
 
