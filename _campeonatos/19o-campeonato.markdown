@@ -13,7 +13,7 @@ etapas:
 - date: 2019-10-20 01:00:00 -02:00
   local: Granja Viana
 - date: 2019-12-01 00:00:00 -02:00
-  local: 
+  local: San Marino
 - date: 2019-12-08 00:00:00 -02:00
   local: 
 ---
