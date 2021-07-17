@@ -5,9 +5,9 @@ position: 2
 ano: 2019
 etapas:
 - date: 2019-07-21 00:00:00 -03:00
-  local: 
+  local: Rental Kart
 - date: 2019-08-18 00:00:00 -03:00
-  local: 
+  local: Interlagos
 - date: 2019-09-22 00:00:00 -03:00
   local: 
 - date: 2019-10-20 01:00:00 -02:00
