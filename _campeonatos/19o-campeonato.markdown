@@ -9,9 +9,9 @@ etapas:
 - date: 2019-08-18 00:00:00 -03:00
   local: Interlagos
 - date: 2019-09-22 00:00:00 -03:00
-  local: 
+  local: Granja Viana
 - date: 2019-10-20 01:00:00 -02:00
-  local: 
+  local: Granja Viana
 - date: 2019-12-01 00:00:00 -02:00
   local: 
 - date: 2019-12-08 00:00:00 -02:00
