@@ -5,15 +5,17 @@ isPaginated: true
 ---
 
 <div class="wrapper">
-    {% for post in paginator.posts %}
-    <article class="post-item">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2 class="post-link-title">
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 56 }} <a href="{{ post.url | prepend: site.baseurl }}">continue lendo</a></p>
-    </article>
-    {% endfor %}
+    <section class="post-list">
+        {% for post in paginator.posts %}
+        <article class="post-item">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2 class="post-link-title">
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 56 }} <a href="{{ post.url | prepend: site.baseurl }}">continue lendo</a></p>
+        </article>
+        {% endfor %}
+    </section>
 
     <footer class="page-content horizontal">
         {% if paginator.previous_page %}
@@ -32,5 +34,4 @@ isPaginated: true
         <span class="next icon">{% include svg/arrow-next.svg %}</span>
         {% endif %}
     </footer>
-
 </div>

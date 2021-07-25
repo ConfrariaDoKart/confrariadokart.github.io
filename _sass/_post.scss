@@ -1,6 +1,10 @@
+.post-list {
+    margin-top: var(--spacing-smart);
+}
+
 .post-item {
-    margin-top: var(--spacing-s);
-    margin-bottom: var(--spacing-s);
+    margin-top: var(--spacing-smart);
+    margin-bottom: var(--spacing-smart);
     padding: var(--spacing-s);
 
     border-radius: 6px;
