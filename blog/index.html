@@ -11,7 +11,7 @@ isPaginated: true
         <h2 class="post-link-title">
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 56 }} <a href="{{ post.url | | prepend: site.baseurl }}">continue lendo</a></p>
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 56 }} <a href="{{ post.url | prepend: site.baseurl }}">continue lendo</a></p>
     </article>
     {% endfor %}
 
