@@ -28,14 +28,6 @@ ul, ol, li {
     margin-bottom: var(--spacing-s);
 }
 
-
-
-@for $i from 1 through 6 {
-    h#{$i} {
-        font-size: 2em + 2em / $i;
-    }
-}
-
 h1,
 h2,
 h3,
@@ -44,6 +36,12 @@ h5,
 h6 {
     font-family: $title-font-family;
     font-weight: normal;
+}
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: 1em + 1em / $i;
+    }
 }
 
 %transition {
