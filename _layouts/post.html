@@ -2,45 +2,99 @@
 layout: default
 ---
 
+{% if page.campeonato %}
+{% for c in site.campeonatos %}
+{% if c.title == page.campeonato %}
+{% assign campeonato = c %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
 <article class="post-container" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     {%- if page.image != '' -%}
-      <img src="{{ page.image }}" alt="{{ page.title }}" width="100%">
+    <img src="{{ page.image }}" alt="{{ page.title }}" width="100%">
     {%- endif -%}
 
     <div class="wrapper">
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-      <div class="horizontal">
+
+      <div class="post-toolbar">
         <p class="post-meta">
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% include locale-date.html date = page.date %}
+          </time>
           {% if page.author %}
-            •
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">{{ page.author }}</span>
-            </span>
+          •
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{{ page.author }}</span>
+          </span>
           {% endif %}
         </p>
-        <div>
-          {% include share.html position='cabeçalho' %}
-        </div>
+        {% include share.html position='cabeçalho' %}
       </div>
+
     </div>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+  <div class="post-content--grid" itemprop="articleBody">
+    <section>
+      {{ content }}
+    </section>
+
+    <aside class="post-content__aside">
+      {% if campeonato %}
+      <h4>
+        {{ campeonato.title }}
+        ({{ campeonato.ano }})
+      </h4>
+
+      {{ campeonato.excerpt }}
+
+      <h3>Etapas:</h3>
+
+      {% for etapa in campeonato.etapas %}
+      <article class="post-content__aside-item">
+        <div class="icon">
+          {% include svg/checkpoint.svg %}
+        </div>
+        <div class="post-content__aside-item__content">
+          <small>{% include locale-date.html date = etapa.date %}</small>
+          <br>
+          {{ etapa.local }}
+        </div>
+      </article>
+      {% endfor %}
+
+      <h3>Leia mais</h3>
+
+      {% for p in site.posts %}{% if p.campeonato == campeonato.title and p.url != page.url %}
+      <article class="post-content__asite-item">
+        <h4 class="post-content__aside-title">
+          <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+        </h4>
+        <div class="post-content__aside-excerpt">
+          {{ p.excerpt }}
+        </div>
+      </article>
+      {% endif %}{% endfor %}
+
+      {% endif %}
+    </aside>
   </div>
 
   <nav class="post-navigation wrapper large horizontal">
     <div class="prev">
-    {% if page.previous.url %}
-      <a href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; {% if page.previous.titulo %}{{ page.previous.titulo }}{% else %}{{page.previous.title}}{% endif %}</a>
-    {% endif %}
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; {% if page.previous.titulo %}{{
+        page.previous.titulo }}{% else %}{{page.previous.title}}{% endif %}</a>
+      {% endif %}
     </div>
     <div class="next">
-    {% if page.next.url %}
-      <a href="{{ page.next.url | prepend: site.baseurl }}">{% if page.next.titulo %}{{ page.next.titulo }}{% else %}{{page.next.title}}{% endif %} &raquo;</a>
-    {% endif %}
+      {% if page.next.url %}
+      <a href="{{ page.next.url | prepend: site.baseurl }}">{% if page.next.titulo %}{{ page.next.titulo }}{% else
+        %}{{page.next.title}}{% endif %} &raquo;</a>
+      {% endif %}
     </div>
   </nav>
 
