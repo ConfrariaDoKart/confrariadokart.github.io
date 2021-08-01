@@ -1,8 +1,8 @@
 ---
-title: Pistas e cartódromos
+title: Pistas e kartódromos
 position: 1
-menu-title: Pistas
 image: "/img/largada.jpg"
+menu-title: Pistas
 ---
 
 ## Pistas
