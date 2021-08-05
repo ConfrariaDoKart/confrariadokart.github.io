@@ -41,7 +41,7 @@ defaults:
     path: ''
     type: pistas
   values:
-    tel: ''
+    telefone: ''
     endereco: ''
     site: ''
 lang: pt_BR
