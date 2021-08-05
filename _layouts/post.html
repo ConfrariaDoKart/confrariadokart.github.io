@@ -74,7 +74,7 @@ layout: default
           <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
         </h4>
         <div class="post-content__aside-excerpt">
-          {{ p.excerpt }}
+          {{ p.excerpt | truncatewords: 30, '...' }}
         </div>
       </article>
       {% endif %}{% endfor %}
