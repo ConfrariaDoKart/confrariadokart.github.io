@@ -5,6 +5,9 @@ collections:
   campeonatos:
     title: Campeonatos
     output: false
+  pistas:
+    title: Pistas
+    output: false
   posts:
     title: Posts
     output: true
@@ -33,7 +36,7 @@ defaults:
     ano: ''
     etapas:
     - date: ''
-      local: ''
+      pista: ''
 lang: pt_BR
 description: ''
 baseurl: ''

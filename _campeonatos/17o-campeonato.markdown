@@ -5,16 +5,16 @@ position: 4
 ano: 2018
 etapas:
 - date: 2018-07-29 00:00:00 -03:00
-  local: Interlagos
+  pista: Interlagos
 - date: 2018-08-19 00:00:00 -03:00
-  local: Aldeia da Serra
+  pista: Aldeia da Serra
 - date: 2018-09-16 00:00:00 -03:00
-  local: Interlagos
+  pista: Interlagos
 - date: 2018-10-21 01:00:00 -02:00
-  local: Granja Viana
+  pista: Granja Viana
 - date: 2018-11-11 00:00:00 -02:00
-  local: Nova Odessa
+  pista: Nova Odessa
 - date: 2018-12-09 00:00:00 -02:00
-  local: Interlagos
+  pista: Interlagos
 ---
 
