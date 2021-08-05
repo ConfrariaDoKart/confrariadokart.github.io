@@ -116,3 +116,14 @@
         }
     }
 }
+
+.post-navigation {
+    @extend .wrapper, .horizontal;
+    margin-top: var(--spacing);
+    padding-top: var(--spacing);
+    border-top: 1px solid $grey-color-light;
+
+    &__separator {
+        width: var(--spacing);
+    }
+}

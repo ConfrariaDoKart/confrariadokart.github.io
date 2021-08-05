@@ -10,7 +10,7 @@ layout: default
 {% endfor %}
 {% endif %}
 
-<article class="post-container" itemscope itemtype="http://schema.org/BlogPosting">
+<section class="post-container" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     {%- if page.image != '' -%}
     <img src="{{ page.image }}" alt="{{ page.title }}" width="100%">
@@ -38,70 +38,37 @@ layout: default
   </header>
 
   <div class="post-content--grid" itemprop="articleBody">
-    <section>
+    <article>
       {{ content }}
-    </section>
+
+      {% include share.html position='post' %}
+    </article>
 
     <aside class="post-content__aside">
       {% if campeonato %}
-      <h4>
-        {{ campeonato.title }}
-        ({{ campeonato.ano }})
-      </h4>
-
-      {{ campeonato.excerpt }}
-
-      <h3>Etapas:</h3>
-
-      {% for etapa in campeonato.etapas %}
-      <article class="post-content__aside-item">
-        <div class="icon">
-          {% include svg/checkpoint.svg %}
-        </div>
-        <div class="post-content__aside-item__content">
-          <small>{% include locale-date.html date = etapa.date %}</small>
-          <br>
-          {{ etapa.pista }}
-        </div>
-      </article>
-      {% endfor %}
-
-      <h3>Leia mais</h3>
-
-      {% for p in site.posts %}{% if p.campeonato == campeonato.title and p.url != page.url %}
-      <article class="post-content__asite-item">
-        <h4 class="post-content__aside-title">
-          <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
-        </h4>
-        <div class="post-content__aside-excerpt">
-          {{ p.excerpt | truncatewords: 30, '...' }}
-        </div>
-      </article>
-      {% endif %}{% endfor %}
-
+      {% include sidebar/campeonato.html %}
+      {% else %}
+      {% include sidebar/post.html %}
       {% endif %}
     </aside>
   </div>
 
-  <nav class="post-navigation wrapper large horizontal">
-    <div class="prev">
+  <nav class="post-navigation">
+    <span class="prev">
       {% if page.previous.url %}
       <a href="{{ page.previous.url | prepend: site.baseurl }}">&laquo; {% if page.previous.titulo %}{{
         page.previous.titulo }}{% else %}{{page.previous.title}}{% endif %}</a>
       {% endif %}
-    </div>
-    <div class="next">
+    </span>
+    <span class="post-navigation__separator"></span>
+    <span class="next">
       {% if page.next.url %}
       <a href="{{ page.next.url | prepend: site.baseurl }}">{% if page.next.titulo %}{{ page.next.titulo }}{% else
         %}{{page.next.title}}{% endif %} &raquo;</a>
       {% endif %}
-    </div>
+    </span>
   </nav>
 
-</article>
-
-<div class="wrapper">
-  {% include share.html position='comentários' %}
-</div>
+</section>
 
 {%- include disqus.html -%}

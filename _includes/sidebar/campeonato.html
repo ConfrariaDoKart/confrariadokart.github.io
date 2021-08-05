@@ -1,0 +1,34 @@
+<h4>
+    {{ campeonato.title }}
+    ({{ campeonato.ano }})
+</h4>
+
+{{ campeonato.excerpt }}
+
+<h3>Etapas:</h3>
+
+{% for etapa in campeonato.etapas %}
+<article class="post-content__aside-item">
+    <div class="icon">
+        {% include svg/checkpoint.svg %}
+    </div>
+    <div class="post-content__aside-item__content">
+        <small>{% include locale-date.html date = etapa.date %}</small>
+        <br>
+        {{ etapa.pista }}
+    </div>
+</article>
+{% endfor %}
+
+<h3>Leia mais</h3>
+
+{% for p in site.posts %}{% if p.campeonato == campeonato.title and p.url != page.url %}
+<article class="post-content__asite-item">
+    <h4 class="post-content__aside-title">
+        <a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
+    </h4>
+    <div class="post-content__aside-excerpt">
+        {{ p.excerpt | truncatewords: 30, '...' }}
+    </div>
+</article>
+{% endif %}{% endfor %}
