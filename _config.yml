@@ -37,6 +37,13 @@ defaults:
     etapas:
     - date: ''
       pista: ''
+- scope:
+    path: ''
+    type: pistas
+  values:
+    tel: ''
+    endereco: ''
+    site: ''
 lang: pt_BR
 description: ''
 baseurl: ''
