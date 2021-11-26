@@ -2,6 +2,7 @@
 title: Como participar
 position: 0
 menu-title: Participe
+layout: subscription-form
 ---
 
 ### Saiba Como Participar da Confraria do Kart

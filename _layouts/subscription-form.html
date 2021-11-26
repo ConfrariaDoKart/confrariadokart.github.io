@@ -1,0 +1,121 @@
+---
+layout: page
+---
+
+<div class="subscription__grid">
+    <div class="subscription__page-content">
+        {{ content }}
+    </div>
+
+    <div class="subscription__form">
+        <h4>Formulário de inscrição</h4>
+        <form id="subscription-form" action="">
+            <p>
+                <label for="team">Nome da Equipe <span class="asterisk">*</span></label>
+                <input name="team" id="team" type="text" required>
+            </p>
+            <fieldset class="subscription__fieldset">
+                <legend class="subscription__legend">
+                    <div>1º piloto <span class="asterisk">*</span></div>
+                </legend>
+                <div class="subscription__fieldset-content" id="first_pilot">
+                    <p>
+                        <label for="first_name">Nome Completo <span class="asterisk">*</span></label>
+                        <input name="first_name" id="first_name" type="text" required>
+                    </p>
+                    <p>
+                        <label for="first_birthday">Data de Nascimento <span class="asterisk">*</span></label>
+                        <input name="first_birthday" id="first_birthday" type="text" required>
+                    </p>
+                    <p>
+                        <label for="first_email">Email <span class="asterisk">*</span></label>
+                        <input name="first_email" id="first_email" type="email" required>
+                    </p>
+                    <p>
+                        <label for="first_phone">Celular <span class="asterisk">*</span></label>
+                        <input name="first_phone" id="first_phone" type="tel" required>
+                    </p>
+                    <p>
+                        <label for="first_weight">Peso <span class="asterisk">*</span></label>
+                        <input name="first_weight" id="first_weight" type="text" required>
+                    </p>
+                    <p>
+                        <label for="first_height">Altura <span class="asterisk">*</span></label>
+                        <input name="first_height" id="first_height" type="text" required>
+                    </p>
+                </div>
+            </fieldset>
+            <fieldset class="subscription__fieldset">
+                <legend class="subscription__legend">
+                    <div>2º piloto <span class="asterisk">*</span></div>
+                </legend>
+                <div class="subscription__fieldset-content" id="second_pilot">
+                    <p>
+                        <label for="second_name">Nome Completo <span class="asterisk">*</span></label>
+                        <input name="second_name" id="second_name" type="text" required>
+                    </p>
+                    <p>
+                        <label for="second_birthday">Data de Nascimento <span class="asterisk">*</span></label>
+                        <input name="second_birthday" id="second_birthday" type="text" required>
+                    </p>
+                    <p>
+                        <label for="second_email">Email <span class="asterisk">*</span></label>
+                        <input name="second_email" id="second_email" type="email" required>
+                    </p>
+                    <p>
+                        <label for="second_phone">Celular <span class="asterisk">*</span></label>
+                        <input name="second_phone" id="second_phone" type="tel" required>
+                    </p>
+                    <p>
+                        <label for="second_weight">Peso <span class="asterisk">*</span></label>
+                        <input name="second_weight" id="second_weight" type="text" required>
+                    </p>
+                    <p>
+                        <label for="second_height">Altura <span class="asterisk">*</span></label>
+                        <input name="second_height" id="second_height" type="text" required>
+                    </p>
+                </div>
+            </fieldset>
+            <fieldset class="subscription__fieldset">
+                <legend class="subscription__legend">
+                    <div>Piloto reserva (opcional)</div>
+                </legend>
+                <div class="subscription__fieldset-content" id="third_pilot">
+                    <p>
+                        <label for="third_name">Nome Completo</label>
+                        <input name="third_name" id="third_name" type="text">
+                    </p>
+                    <p>
+                        <label for="third_birthday">Data de Nascimento</label>
+                        <input name="third_birthday" id="third_birthday" type="text">
+                    </p>
+                    <p>
+                        <label for="third_phone">Celular</label>
+                        <input name="third_phone" id="third_phone" type="tel">
+                    </p>
+                    <p>
+                        <label for="third_email">Email</label>
+                        <input name="third_email" id="third_email" type="email">
+                    </p>
+                    <p>
+                        <label for="third_weight">Peso</label>
+                        <input name="third_weight" id="third_weight" type="text">
+                    </p>
+                    <p>
+                        <label for="third_height">Altura</label>
+                        <input name="third_height" id="third_height" type="text">
+                    </p>
+                </div>
+            </fieldset>
+            <p>
+                <label for="extras">Solicitações Extras</label>
+                <textarea name="extras" id="extras" rows="5"></textarea>
+            </p>
+            <p class="subscription__form-footer">
+                <button type="submit">
+                    Enviar inscrição
+                </button>
+            </p>
+        </form>
+    </div>
+</div>

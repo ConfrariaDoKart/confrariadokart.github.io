@@ -8,5 +8,5 @@ $baseurl: '{{ site.baseurl }}';
 @import "vars", "mixins";
 @import "defaults", "forms";
 @import "monica", "helpers";
-@import "layout";
+@import "layout", "subscription";
 @import "home", "post", "share";

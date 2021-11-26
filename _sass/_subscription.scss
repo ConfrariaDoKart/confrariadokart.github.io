@@ -1,0 +1,106 @@
+.subscription {
+    &__grid {
+        @extend .wrapper, .horizontal;
+
+        @include media-query($on-laptop) {
+            flex-direction: column;
+        }
+    }
+
+    &__page-content {
+        @extend .page-content;
+        flex: 1;
+
+        @include media-greater($on-laptop) {
+            padding: 0;
+        }
+    }
+
+    &__form {
+        flex: 1;
+
+        @include media-greater($on-laptop) {
+            margin-left: var(--spacing);
+            padding-left: var(--spacing);
+            border-left: 1px solid $grey-color;
+        }
+
+        .asterisk {
+            display: inline-block;
+            color: red;
+            font-size: 1.5em;
+            line-height: 0;
+            transform: translateY(0.25em);
+        }
+    }
+
+    &__fieldset {
+        margin-bottom: var(--spacing);
+        padding: var(--spacing-xs);
+        background-color: $grey-color-light;
+        border: 1px solid $grey-color;
+        border-radius: 6px;
+        @extend %transition;
+
+        &:focus-within {
+            border-color: $brand-color;
+            box-shadow: 0 2px 10px 0 rgba($brand-color, 0.5);
+
+            @include media-greater($on-laptop) {
+                transform: scale(1.15);
+            }
+        }
+
+        &:not(:focus-within) {
+            label {
+                .asterisk {
+                    color: inherit;
+                }
+            }
+        }
+
+        &-content {
+            > :last-child {
+                margin-bottom: 0;
+            }
+
+            p {
+                margin-top: var(--spacing-xs);
+                margin-bottom: var(--spacing-xs);
+            }
+        }
+
+        label {
+            font-size: 0.5em;
+            position: absolute;
+            z-index: 9;
+            padding: 3px;
+        }
+
+        input {
+            padding: var(--spacing-s) 3px 3px;
+
+            @include media-greater($on-laptop) {
+                font-size: 0.85em;
+            }
+
+            &:not(:focus) {
+                border-color: transparent;
+            }
+        }
+    }
+
+    &__legend {
+        display: contents;
+
+        > * {
+            margin: 0;
+            text-align: right;
+            font-size: 1.4em;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+            line-height: 1;
+            color: $grey-color;
+        }
+    }
+}
