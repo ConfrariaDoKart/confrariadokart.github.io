@@ -1,7 +1,6 @@
 ---
 title: 15º campeonato da Confraria do Kart
 date: 2017-07-01 00:00:00 -03:00
-image: "/uploads/15oCampeonato_CDK_Etapas.png"
 campeonato: 15º campeonato
 ---
 
