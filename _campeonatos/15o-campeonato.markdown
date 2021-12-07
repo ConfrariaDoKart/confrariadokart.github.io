@@ -7,5 +7,11 @@ etapas:
   pista: Speedland
 - date: 2017-08-06 00:00:00 -03:00
   pista: Interlagos
+- date: 2017-09-17 00:00:00 -03:00
+  pista: Interlagos
+- date: 2017-09-08 00:00:00 -03:00
+  pista: Interlagos
+- date: 2017-11-12 00:00:00 -02:00
+  pista: 
 ---
 
