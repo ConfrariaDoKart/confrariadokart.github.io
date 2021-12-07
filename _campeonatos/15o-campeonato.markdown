@@ -12,6 +12,8 @@ etapas:
 - date: 2017-09-08 00:00:00 -03:00
   pista: Interlagos
 - date: 2017-11-12 00:00:00 -02:00
-  pista: 
+  pista: Itália Kart
+- date: 2017-12-03 00:00:00 -02:00
+  pista: Interlagos
 ---
 
