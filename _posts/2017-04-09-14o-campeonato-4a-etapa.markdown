@@ -7,7 +7,7 @@ campeonato: 14º campeonato
 
 O campeonato vai afunilando entrando na sua segunda metade. Fomos à Interlagos novamente pra dar uma emoção e uma alegria pra esse domingo cinza e nublado. Não teve chuva pra apimentar a corrida, não teve calor pra quase matar nossos pilotos. Um clima agradável pra andar de kart e tomar uma gelada com os amigos.
 
-LIGHT – G3
+## LIGHT – G3
 
 ![14o_Campeonato_CDK_Etapa4_G3.jpg](/uploads/14o_Campeonato_CDK_Etapa4_G3.jpg)
 
@@ -15,7 +15,7 @@ Mais um dia de muitas ausências no grupo, porém, a presença mais que ilustre 
 
 Em 2º veio Eduardo Alberto, da WALMAX, que largou em 11º e foi brincando de pilotar. Não conseguiu passar Bruno, mas o segundo posto no pódio foi dele. Já em 3º veio o Leandro, aspirante no G3, mas experiente no G1. Largou em 7º e chegou logo atrás de Eduardo, apenas 1s de distância entre eles. Completaram o pódio o grande Waldemar em 4º, Danylo em 5º e Leandro Luiz em 6º.
 
-GRADUADOS – G2
+## GRADUADOS – G2
 
 ![14o_Campeonato_CDK_Etapa4_G2@2x.jpg](/uploads/14o_Campeonato_CDK_Etapa4_G2@2x.jpg)
 
@@ -23,13 +23,13 @@ Não sabemos onde há mais fominhas… G1 ou G2? A pergunta é sempre difícil, 
 
 Largou em 9º e acompanhou o primeiro colocado quase que a corrida toda. Em 3º veio o Lipe, que só foi ultrapassado pelos ponteiros e fez uma corrida muito boa, somando pontos importantes para a equipe, ainda na busca de uma vaga no G1. Completaram o pódio Rogério em 4º, Oscar em 5º e Pica-Pau em 6º.
 
-LIGHT – G3
+## LIGHT – G3
 
 ![14o_Campeonato_CDK_Etapa4_G3@@2x-1.jpg](/uploads/14o_Campeonato_CDK_Etapa4_G3@@2x-1.jpg)
 
 Quando a gente para pra ver a classificação desse grupo só me vem a mente: MEDALHA, MEDALHA, MEDALHA. Com mais uma vitória da Muttley, eles estão dominando o grupo, mas não pensem que está tão fácil assim, a Furia Mogiana está apenas 10 pontos atrás e quer levar esse caneco também. Contabilizando a segunda vitória para a Muttley, o reserva Guilherme Romano matou a pau e depois de largar em 12º ele simplesmente voou na pista e só aterrissou quando completou a volta 18, da bandeirada. 1º lugar pra ele. A 8s atrás de Guilherme veio Felipe Garibaldi, parceiro do vencedor, que largou em 8º e chegou em 2º pra fazer a dobradinha com o amigo. Largando em 11º, Sérgio, da Furia Mogiana, levou seu kart com muita calma pra 3ª posição. Completaram o pódio Paulo Daniel em 4º, Reinaldo em 5º e Danilo Carvalho em 6º.
 
-SUPER GRADUADOS – G1
+## SUPER GRADUADOS – G1
 
 ![14o_Campeonato_CDK_Etapa4_G1@2x.jpg](/uploads/14o_Campeonato_CDK_Etapa4_G1@2x.jpg)
 
