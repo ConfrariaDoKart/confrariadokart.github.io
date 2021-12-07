@@ -1,6 +1,6 @@
 ---
 title: 15º campeonato - 3ª etapa
-date: 2021-12-07 00:18:00 -02:00
+date: 2017-09-17 00:00:00 -03:00
 ---
 
 Depois de mais de um mês de pausa das pistas, a CDK voltou a ativa normalmente, e com muita sede os pilotos foram para a pista num domingo com um calor de 30ºC. É pra matar qualquer um… Só que temos muita cerveja gelada para hidratar nossos pilotos.
