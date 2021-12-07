@@ -1,5 +1,5 @@
 ---
-title: 14º campeonato - 1ª etapa
+title: 14º campeonato
 date: 2021-12-07 00:48:00 -02:00
 ano: 2017
 etapas:
