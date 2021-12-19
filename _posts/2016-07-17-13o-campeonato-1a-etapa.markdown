@@ -4,6 +4,8 @@ date: 2016-07-17 00:00:00 -03:00
 campeonato: 13º campeonato
 ---
 
+Quando olhamos para trás, percebemos a grande distância que percorremos ao lembrarmos de nossa 1ª corrida com apenas 12 pilotos reunidos depois de um dia de trabalho e se divertindo com karts de 6,5 hp. Hoje, 12 campeonatos depois, olhamos ao redor e percebemos mais de 80 pilotos disputando nosso campeonato e participando com a gente de provas importantes do Kart amador brasileiro. Todo começo de campeonato é tempo de conhecer gente nova e se preparar para novas experiências, sejam elas boas ou nem tanto. As vezes ganhamos, outras quebramos, rodamos, batemos, reclamamos do juiz, ficamos bravos uns com os outros, mas no final sempre tem cerveja gelada, conversa e muita diversão. Bem-vindos ao 13º Campeonato da Confraria do Kart.
+
 ## GRADUADOS – G2
 
 ![GRADUADOS – G2](/uploads/13oCDK_Etapa1_1-13_G2.jpg)
