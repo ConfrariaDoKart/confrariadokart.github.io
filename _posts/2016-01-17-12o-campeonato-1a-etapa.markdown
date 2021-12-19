@@ -19,7 +19,7 @@ Artur de Stefani em 4º, Rafael Faccio em 5º e Luciano Bido na 6ª posição co
 
 Após essa etapa a classificação final do campeonato ficou assim:
 
-
+![Classificação G2](/uploads/12oCDK_Etapa1_Classific2016_sem1_prova01_Equipes_e_Pilotos_G2.jpg)
 
 ## LIGHT – G3
 
@@ -34,7 +34,7 @@ Flávio Pessoa em 4º, Bruno Kuwada em 5º e Pietro Talutto em 6º fecharam o p�
 
 Após essa etapa a classificação final do campeonato ficou assim:
 
-
+![Classificação G3](/uploads/12oCDK_Etapa1_Classific2016_sem1_prova01_Equipes_e_Pilotos_G3.jpg)
 
 ## SUPER GRADUADOS – G1
 
@@ -49,7 +49,8 @@ Com Martin em 4º, Gui Zapella em 5º e Flávio Pessoa em 6º, o pódio desta et
 
 Após essa etapa a classificação final do campeonato ficou assim:
 
-
+![Classificação G1](/uploads/12oCDK_Etapa1_Classific2016_sem1_prova01_Equipes_e_Pilotos_G1.jpg)
 
 Após essa etapa a classificação final do campeonato ficou assim:
 
+![Classificação final](/uploads/12oCDK_Etapa1_Classific2016_sem1_prova01_Equipes_e_Pilotos_G1-1.jpg)
