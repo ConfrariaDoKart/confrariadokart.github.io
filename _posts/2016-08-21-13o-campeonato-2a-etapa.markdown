@@ -26,4 +26,6 @@ Quando este grupo foi pra pista a chuva era intensa. Se acelerar era um problema
 
 Com muitas ausências nesta etapa e com a chuva dando um alívio, sobrou espaço na pista para o G3 mostrar uma corrida muito disputada. Cayto Grotkowsky, mostrou muito talento. Guardem esse nome. Ele largou na 17ª posição, marcou a melhor volta da corrida e do dia e faturou a corrida com quase 9 segundos de folga. Saiam da frente dele, o cara atropelou. Outro que também mandou bem demais foi o Gustavo Romano. Depois de largar na 16ª posição, levou com muito talento o seu kart à 2ª posição na corrida, numa prova de recuperação muito segura. Daniel Schatz não deixou por menos. Rápido e cauteloso levou seu kart para a 3ª posição na corrida depois de ter largado no 8º lugar do grid. Maurício Paton em 4º, Eduardo Santos em 5º e Cyprein Hoffet completaram o pódio.
 
+![13oCDK_Etapa2_Podios.png](/uploads/13oCDK_Etapa2_Podios.png)
+
 Ainda tem tempo de recuperação para quem ainda não se deu bem. Na próxima corrida chegaremos à metade do campeonato e quem não arriscar agora, pode ficar de fora das disputas finais. Voltaremos para Interlagos onde as disputas são muito acirradas. Você não vai perder, vai ?? Acelera !!!
