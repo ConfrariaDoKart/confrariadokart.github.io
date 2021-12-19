@@ -1,7 +1,7 @@
 ---
 title: 13º campeonato
 date: 2021-12-19 02:26:00 -02:00
-position: 8
+position: 9
 ano: 2016
 etapas:
 - date: 2016-07-17 00:00:00 -03:00
