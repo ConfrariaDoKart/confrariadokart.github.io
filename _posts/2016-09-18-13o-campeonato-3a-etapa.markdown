@@ -24,4 +24,6 @@ Neste grupo é onde as brigas são mais intensas e as corridas são muito equili
 
 Que o diga o Dr. Bork, ou Ronaldo Borkowski como queiram. Largando na 7ª posição acelerou e superou todos adversários a sua frente, cruzando a linha de chegada em 1º lugar, numa corrida brilhante, demonstrando muita habilidade. Logo em veio o Cayto Grotkowsky com mais uma atuação de gala. Largou na 16ª posição e numa corrida espetacular de recuperação faturou a 2ª colocação e com mais algumas voltas causaria problemas pro líder. Daniel Schatz é outro que vem crescendo no campeonato depois de largar na 14ª posição, fez uma corrida irretocável e cruzou a 3ª colocação e o segundo pódio consecutivo no campeonato, na busca pelo acesso ao G2.Waldemar Santos em 4º, Diego Freitas em 5º e Gustavo Romano em 6º completaram o pódio.
 
+![13oCDK_Etapa3_Podio.png](/uploads/13oCDK_Etapa3_Podio.png)
+
 Daqui pra frente é só decisão. Uma atrás da outra. Então quem tem alguma pretensão neste campeonato que comece a reagir agora, senão … será tarde..
