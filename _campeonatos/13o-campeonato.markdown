@@ -1,5 +1,6 @@
 ---
 title: 13º campeonato
+date: 2021-12-19 01:26:00 -03:00
 position: 8
 ano: 2016
 etapas:
@@ -9,9 +10,9 @@ etapas:
   pista: Granja Viana
 - date: 2016-09-18 00:00:00 -03:00
   pista: Interlagos
-- date: 2016-10-16 01:00:00 -02:00
+- date: 2016-10-16 01:00:00 -03:00
   pista: Granja Viana
-- date: 2016-11-20 00:00:00 -02:00
+- date: 2016-11-20 00:00:00 -03:00
   pista: Granja Viana
 ---
 
