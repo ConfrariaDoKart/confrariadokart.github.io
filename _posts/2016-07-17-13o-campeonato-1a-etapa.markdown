@@ -1,6 +1,6 @@
 ---
 title: 13º campeonato - 1ª etapa
-date: 2021-12-19 01:32:00 -02:00
+date: 2016-07-17 00:00:00 -03:00
 campeonato: 13º campeonato
 ---
 
