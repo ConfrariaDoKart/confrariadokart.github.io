@@ -1,5 +1,5 @@
 ---
-title: 12º CAMPEONATO - 4ª ETAPA
+title: 12º campeonato - 4ª etapa
 date: 2016-04-17 00:00:00 -03:00
 campeonato: 12º campeonato
 ---
