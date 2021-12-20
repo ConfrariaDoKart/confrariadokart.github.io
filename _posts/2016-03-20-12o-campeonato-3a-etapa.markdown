@@ -1,5 +1,5 @@
 ---
-title: 12º CAMPEONATO - 3ª ETAPA
+title: 12º campeonato - 3ª etapa
 date: 2016-03-20 00:00:00 -03:00
 campeonato: 12º campeonato
 ---
