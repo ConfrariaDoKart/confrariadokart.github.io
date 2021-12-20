@@ -28,6 +28,16 @@ ul, ol, li {
     margin-bottom: var(--spacing-s);
 }
 
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: var(--spacing-s);
+    border-left: var(--spacing-s) solid $brand-color;
+    font-size: 1.275em;
+    font-style: italic;
+    color: $grey-color;
+}
+
 h1,
 h2,
 h3,
