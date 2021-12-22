@@ -6,15 +6,15 @@ campeonato: 11º campeonato
 
 Uma pista rápida, karts equilibrados e uma corrida melhor que a outra, com muitos pegas, ultrapassagens e muita diversão. Mas como tudo tem dois lados, o pior deles estava do lado de fora da pista. Aliás, a administração do kartódromo San Marino se superou no quesito satisfação do cliente. Foram várias pequenas falhas que atrapalharam muito alguns pilotos. Vou citar apenar algumas:
 
-Valor da reserva maior que em outros Kartódromos, sem reembolso;
-Pouca capacidade de lastro nos karts;
-Equipe de fiscais confusa e despreparada;
-Inversão quando da anotação de advertências;
-Falta de critério claro na aplicação da advertência;
-Prepotência por parte do Diretor de provas rechaçando qualquer tipo argumentação;
-Resultado emitido com erros graves da cronometragem não serão verificados pois segundo eles estão corretos.
-Cobraram uma bateria a mais do valor adiantado por conta de termos reservado a pista para 60 pilotos, um absurdo.
-Talvez precisemos repensar o nosso retorno a esse kartódromo. Vamos aguardar.
+- Valor da reserva maior que em outros Kartódromos, sem reembolso;
+- Pouca capacidade de lastro nos karts;
+- Equipe de fiscais confusa e despreparada;
+- Inversão quando da anotação de advertências;
+- Falta de critério claro na aplicação da advertência;
+- Prepotência por parte do Diretor de provas rechaçando qualquer tipo argumentação;
+- Resultado emitido com erros graves da cronometragem não serão verificados pois segundo eles estão corretos.
+- Cobraram uma bateria a mais do valor adiantado por conta de termos reservado a pista para 60 pilotos, um absurdo.
+- Talvez precisemos repensar o nosso retorno a esse kartódromo. Vamos aguardar.
 
 ## GRADUADOS – G2
 
