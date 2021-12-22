@@ -8,9 +8,9 @@ etapas:
 - date: 2015-08-16 00:00:00 -03:00
   pista: San Marino
 - date: 2015-09-13 00:00:00 -03:00
-  pista: 
+  pista: Kartódromo Ayrton Senna
 - date: 2015-10-04 00:00:00 -03:00
-  pista: 
+  pista: MMOA - Nova Odessa
 - date: 2015-11-29 00:00:00 -02:00
   pista: 
 - date: 2015-12-06 00:00:00 -02:00
