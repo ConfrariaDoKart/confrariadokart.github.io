@@ -1,6 +1,7 @@
 ---
 title: 11º campeonato
 date: 2021-12-19 23:07:00 -02:00
+position: 10
 ano: 2015
 etapas:
 - date: 2015-07-12 00:00:00 -03:00
