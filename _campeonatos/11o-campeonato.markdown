@@ -14,6 +14,6 @@ etapas:
 - date: 2015-11-29 00:00:00 -02:00
   pista: Granja Viana
 - date: 2015-12-06 00:00:00 -02:00
-  pista: 
+  pista: Interlagos
 ---
 
