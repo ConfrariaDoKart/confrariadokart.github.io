@@ -1,5 +1,10 @@
 .post-list {
     margin-top: var(--spacing-smart);
+
+    &_wrapper {
+        @extend .wrapper;
+        width: 100%;
+    }
 }
 
 .post-item {
