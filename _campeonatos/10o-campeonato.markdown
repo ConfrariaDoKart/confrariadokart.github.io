@@ -12,7 +12,7 @@ etapas:
 - date: 2015-04-12 00:00:00 -03:00
   pista: MMOA - Nova Odessa
 - date: 2015-05-17 00:00:00 -03:00
-  pista: 
+  pista: Kartódromo Ayrton Senna
 - date: 2015-06-14 00:00:00 -03:00
   pista: 
 ---
