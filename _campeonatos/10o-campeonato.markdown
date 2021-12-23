@@ -8,7 +8,7 @@ etapas:
 - date: 2015-02-08 00:00:00 -02:00
   pista: MMOA - Nova Odessa
 - date: 2015-03-08 00:00:00 -03:00
-  pista: 
+  pista: Granja Viana
 - date: 2015-04-12 00:00:00 -03:00
   pista: 
 - date: 2015-05-17 00:00:00 -03:00
