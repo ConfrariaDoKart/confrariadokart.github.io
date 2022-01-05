@@ -1,5 +1,5 @@
 ---
-title: 9º campeonato
+title: 8º campeonato
 ano: 2014
 etapas:
 - date: 2014-01-12 00:00:00 -03:00
