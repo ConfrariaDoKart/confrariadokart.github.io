@@ -67,6 +67,8 @@ Assim, a equipe Silpas passa para a segunda etapa à frente no campeonato, segui
 
 ## Entrevista com a equipe Speedster's
 
+![Equipe Speedster's: Ratão e Diego](/uploads/Eq_Speedsters_12.jpg)
+
 Conheceremos um pouco mais dos nossos amigos e confrades da equipe SPEEDSTER’S:
 
 ### Sobre o kart
