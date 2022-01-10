@@ -21,11 +21,11 @@ layout: page
                 <div class="subscription__fieldset-content" id="first_pilot">
                     <p>
                         <label for="first_name">Nome Completo <span class="asterisk">*</span></label>
-                        <input name="first_name" id="first_name" type="text" required>
+                        <input name="first_name" id="first_name" type="text" data-mask="name" required>
                     </p>
                     <p>
                         <label for="first_birthday">Data de Nascimento <span class="asterisk">*</span></label>
-                        <input name="first_birthday" id="first_birthday" type="text" required>
+                        <input name="first_birthday" id="first_birthday" type="text" data-mask="date" required>
                     </p>
                     <p>
                         <label for="first_email">Email <span class="asterisk">*</span></label>
@@ -33,7 +33,7 @@ layout: page
                     </p>
                     <p>
                         <label for="first_phone">Celular <span class="asterisk">*</span></label>
-                        <input name="first_phone" id="first_phone" type="tel" required>
+                        <input name="first_phone" id="first_phone" type="tel" data-mask="tel" required>
                     </p>
                     <p>
                         <label for="first_weight">Peso <span class="asterisk">*</span></label>
@@ -52,11 +52,11 @@ layout: page
                 <div class="subscription__fieldset-content" id="second_pilot">
                     <p>
                         <label for="second_name">Nome Completo <span class="asterisk">*</span></label>
-                        <input name="second_name" id="second_name" type="text" required>
+                        <input name="second_name" id="second_name" type="text" data-mask="name" required>
                     </p>
                     <p>
                         <label for="second_birthday">Data de Nascimento <span class="asterisk">*</span></label>
-                        <input name="second_birthday" id="second_birthday" type="text" required>
+                        <input name="second_birthday" id="second_birthday" type="text" data-mask="date" required>
                     </p>
                     <p>
                         <label for="second_email">Email <span class="asterisk">*</span></label>
@@ -64,7 +64,7 @@ layout: page
                     </p>
                     <p>
                         <label for="second_phone">Celular <span class="asterisk">*</span></label>
-                        <input name="second_phone" id="second_phone" type="tel" required>
+                        <input name="second_phone" id="second_phone" type="tel" data-mask="tel" required>
                     </p>
                     <p>
                         <label for="second_weight">Peso <span class="asterisk">*</span></label>
@@ -83,19 +83,19 @@ layout: page
                 <div class="subscription__fieldset-content" id="third_pilot">
                     <p>
                         <label for="third_name">Nome Completo</label>
-                        <input name="third_name" id="third_name" type="text">
+                        <input name="third_name" id="third_name" type="text" data-mask="name">
                     </p>
                     <p>
                         <label for="third_birthday">Data de Nascimento</label>
-                        <input name="third_birthday" id="third_birthday" type="text">
-                    </p>
-                    <p>
-                        <label for="third_phone">Celular</label>
-                        <input name="third_phone" id="third_phone" type="tel">
+                        <input name="third_birthday" id="third_birthday" type="text" data-mask="date">
                     </p>
                     <p>
                         <label for="third_email">Email</label>
                         <input name="third_email" id="third_email" type="email">
+                    </p>
+                    <p>
+                        <label for="third_phone">Celular</label>
+                        <input name="third_phone" id="third_phone" type="tel" data-mask="tel">
                     </p>
                     <p>
                         <label for="third_weight">Peso</label>
@@ -119,3 +119,5 @@ layout: page
         </form>
     </div>
 </div>
+
+<script src="/js/data-mask.js"></script>
