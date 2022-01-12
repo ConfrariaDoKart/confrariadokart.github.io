@@ -11,7 +11,7 @@ etapas:
 - date: 2014-04-13 00:00:00 -03:00
   pista: San Marino
 - date: 2014-05-18 00:00:00 -03:00
-  pista: Kartodromo Schincariol
+  pista: Arena Schincariol
 - date: 2014-06-08 00:00:00 -03:00
   pista: Granja Viana
 ---
