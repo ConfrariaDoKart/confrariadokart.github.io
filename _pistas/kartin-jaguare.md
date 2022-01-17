@@ -1,5 +1,5 @@
 ---
-title: Kartin Jaguaré
+title: Kart In Jaguaré
 tel: 
 endereco: 
 ---
