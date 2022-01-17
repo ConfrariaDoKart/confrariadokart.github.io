@@ -3,7 +3,7 @@ title: 2º campeonato - 3ª etapa
 campeonato: 2º campeonato
 ---
 
-Contra ficha suja, mantenha a viseira bem limpa
+**Contra ficha suja, mantenha a viseira bem limpa.**
 Relato do enviado especial, Dr. Carlos Honório Andrada Tomás Oliveira, advogado automobilístico:
 
 1. A contenda automobilística realizada no Jaguaré Kart In marcou o meio termo do 2º campeonato da Confraira do Kart.
