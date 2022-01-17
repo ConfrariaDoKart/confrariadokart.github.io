@@ -10,27 +10,27 @@ Esta corrida mistura os melhores classificados de cada grupo numa disputa que va
 
 Os classificados foram para a pista para tomada de tempo e formação do grid de largada. Vejam quadro abaixo:
 
-| Pos |	Nº  |	Nome	              | Melhor Tempo  |
-| --- | --- | ------------------- | ------------- |
-| 1   |	019 |	GABRIEL LODI	      | 47.343        |
-| 2   |	024 |	LEONARDO LEANDRO	  | 47.847        |
-| 3   |	014 |	LUIZ FELIPE	        | 47.903        |
-| 4   |	017 |	GUILHERME BASSI	    | 48.022        |
-| 5   |	021 |	RODRIGO RESEK	      | 48.028        |
-| 6   |	032 |	HELIO BASSI	        | 48.269        |
-| 7   |	029 |	ARTUR DE STEFANI	  | 48.339        |
-| 8   |	010 |	RAFAEL PINOTTI	    | 48.430        |
-| 9   |	013 |	ALOISIO SIQUEIRA	  | 48.496        |
-| 10  |	034 |	GUSTAVO FELICIO	    | 48.505        |
-| 11  |	015 |	LEONARDO ZAPELLA	  | 48.523        |
-| 12  |	016 |	DANILO MARINHO	    | 48.691        |
-| 13  |	027 |	RENATO VELONI	      | 48.709        |
-| 14  |	003 |	IVAN MARCELINO	    | 48.733        |
-| 15  |	037 |	ENILSON LOPES	      | 48.876        |
-| 16  |	026 |	LUIZ AUGUSTO	      | 48.941        |
-| 17  |	012 |	DIEGO DE MATTOS	    | 49.013        |
-| 18  |	039 |	FELIPE ALVES	      | 49.361        |
-| 19  |	008 |	MARCO AURELIO	      | 49.965        |
+| Posição |	Nº  |	Nome	              | Melhor Tempo  |
+| :------:| :-: | ------------------- | :-----------: |
+| 1       |	019 |	GABRIEL LODI	      | 47.343        |
+| 2       |	024 |	LEONARDO LEANDRO	  | 47.847        |
+| 3       |	014 |	LUIZ FELIPE	        | 47.903        |
+| 4       |	017 |	GUILHERME BASSI	    | 48.022        |
+| 5       |	021 |	RODRIGO RESEK	      | 48.028        |
+| 6       |	032 |	HELIO BASSI	        | 48.269        |
+| 7       |	029 |	ARTUR DE STEFANI	  | 48.339        |
+| 8       |	010 |	RAFAEL PINOTTI	    | 48.430        |
+| 9       |	013 |	ALOISIO SIQUEIRA	  | 48.496        |
+| 10      |	034 |	GUSTAVO FELICIO	    | 48.505        |
+| 11      |	015 |	LEONARDO ZAPELLA	  | 48.523        |
+| 12      |	016 |	DANILO MARINHO	    | 48.691        |
+| 13      |	027 |	RENATO VELONI	      | 48.709        |
+| 14      |	003 |	IVAN MARCELINO	    | 48.733        |
+| 15      |	037 |	ENILSON LOPES	      | 48.876        |
+| 16      |	026 |	LUIZ AUGUSTO	      | 48.941        |
+| 17      |	012 |	DIEGO DE MATTOS	    | 49.013        |
+| 18      |	039 |	FELIPE ALVES	      | 49.361        |
+| 19      |	008 |	MARCO AURELIO	      | 49.965        |
 
 Foi feito um comunicado verbal aos pilotos pouco antes do início da corrida que por questões de segurança a largada não seria lançada, diferentemente do que ocorreu ao longo do campeonato e esse foi o motivo da confusão.
 
