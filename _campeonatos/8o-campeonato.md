@@ -15,4 +15,3 @@ etapas:
 - date: 2014-06-08 00:00:00 -03:00
   pista: Granja Viana
 ---
-
