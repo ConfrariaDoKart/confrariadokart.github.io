@@ -3,8 +3,7 @@ title: 7º campeonato - 1ª etapa
 campeonato: 7º campeonato
 ---
 
-Campeonato novo, vida nova.
-
+**Campeonato novo, vida nova:**
 Durante a fase de inscrições para o 7º Campeonato da Confraria do Kart imaginava-se que este seria entre todos já disputados o de maior participação de pilotos. Até uma semana antes de começar haviam 23 duplas inscritas e confirmadas, porém com a desistência de 4 duplas aos 48 do segundo tempo ficamos com 19 duplas inscritas.
 
 O que podemos dizer é que são 19 duplas de apaixonados pela emoção do kartismo. Não fossem as suspensões de 2 pilotos do G1 teríamos apenas 2 ausências também no G1.
