@@ -1,6 +1,5 @@
 ---
 title: 20º campeonato - 2ª etapa
-date: 2020-02-09 00:00:00 -02:00
 campeonato: 20º campeonato
 ---
 
