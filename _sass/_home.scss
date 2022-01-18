@@ -1,30 +1,37 @@
 .home-banner {
     @extend .hero--dark;
-    padding: 120px var(--spacing-smart);
+    padding: 120px var(--spacing-smart) var(--spacing-smart);
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     margin-top: 0;
     height: 100vh;
 
-    background-image: url('#{$baseurl}/img/primeira-pessoa.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
     z-index: -1;
 
+    @include media-greater($on-palm) {
+        background-image: url("#{$baseurl}/img/capa-desktop.jpg");
+    }
+
+    @include media-query($on-palm) {
+        background-image: url("#{$baseurl}/img/capa-mobile.jpg");
+    }
+
     &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0;
-        background-image: radial-gradient(transparent, #000);
+        height: 240px;
+        background-image: linear-gradient(to top, transparent, #000);
     }
 
     &__content {
         @extend %transition, .wrapper;
-        margin-left: 0;
+        margin-right: 0;
         z-index: 1;
     }
 
@@ -33,11 +40,13 @@
         font-size: 1.3em;
         line-height: 1.25;
         font-weight: bold;
+        margin: 0;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
 
-        &__line-1, &__line-2 {
+        &__line-1,
+        &__line-2 {
             margin-top: 0.125em;
             margin-bottom: 0.125em;
             padding: 5px 20px;
@@ -76,13 +85,15 @@
         @extend .flex;
         text-align: center;
     }
-    
+
     &__link {
         @extend .vertical, .center;
         padding: 2em;
         color: $grey-color;
 
-        &:hover, &:focus, &:active {
+        &:hover,
+        &:focus,
+        &:active {
             color: #000;
 
             svg {
