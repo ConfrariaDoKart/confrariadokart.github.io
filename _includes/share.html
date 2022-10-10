@@ -1,4 +1,4 @@
-{%- assign href = site.url | append: site.baseurl | append: page.url -%}
+{%- assign href = "https://" | append: site.url | append: site.baseurl | append: page.url -%}
 
 {%- assign event_label = page.url | append: ' ' | append: include.position -%}
 
@@ -8,7 +8,7 @@
 {% assign title = site.title %}
 {% endif %}
 
-<p>
+<p>{{ site.url}}
   <span class="share-label">Compartilhe:</span>
 
   <a class="share-btn--fb" target="_blank"

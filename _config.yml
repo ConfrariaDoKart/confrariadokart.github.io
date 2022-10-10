@@ -47,7 +47,7 @@ defaults:
 lang: pt_BR
 description: ''
 baseurl: ''
-url: http://confrariadokart.esp.br/
+url: confrariadokart.esp.br/
 markdown: kramdown
 permalink: pretty/
 paginate: 10
